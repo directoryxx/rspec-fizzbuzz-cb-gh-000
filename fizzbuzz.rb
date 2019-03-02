@@ -1,6 +1,6 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
-required './spec/fizzbuzz_spec.rb'
+require './spec/fizzbuzz_spec.rb'
 def fizzbuzz(input)
   if input % 15 == 0
     "FizzBuzz"
